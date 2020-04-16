@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b6e056-0056-4f41-8054-69b07fd4bd2c">
+  <producedTypes>
+    <objectType typeId="b5025f5c-79eb-4245-99bd-21ffcbb42bae" valueTypeId="408d3091-6d57-49f1-842e-cc448dc05dda"/>
+    <refType typeId="c49fab77-a1b8-4a45-9522-f517cf6d94f8" valueTypeId="7fd63bd8-1496-4aa3-b583-b479416dcee0"/>
+    <selectionType typeId="1b2d5874-8bad-4407-8262-9290f8d5f2f6" valueTypeId="d59836d5-616e-46bd-9212-62613a3fddd8"/>
+    <listType typeId="cd64eb96-61a5-4399-8c0d-624a0bca9ab4" valueTypeId="89a554c6-5b32-42a0-b394-3acc9cab8f66"/>
+    <managerType typeId="4ef3315b-126d-4c7a-ada4-df6688931566" valueTypeId="b277467b-10b1-45a3-af8f-7a0492f3ec93"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="605d3ec1-9468-4df9-a2f2-d568cfce5894">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="433b62d7-3ddc-4ea6-a145-f4b1c88a6177">
+    <producedTypes>
+      <objectType typeId="56735ee6-4d43-4812-9ea3-c819f535b2e6" valueTypeId="8fc1583f-4e05-4e60-92f2-0a174618833b"/>
+      <rowType typeId="b0852280-bcb7-409e-a507-96f6529f9cae" valueTypeId="0bfaefee-8532-4ce7-8cd2-32fc2613bcb3"/>
+    </producedTypes>
+    <name>СписокПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список прав</value>
+    </synonym>
+    <attributes uuid="f00430a7-5df4-4105-88ef-10005597e7c9">
+      <name>ИмяРоли</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя роли</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4ed5ac4c-879b-49ac-9b3b-0ccff29b73f1">
+      <name>Включено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f4ddf71-870d-488b-a48c-1b58ae451ab4">
+      <name>ПредставлениеРоли</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f84aaca7-f008-45b5-addb-aece0e59efd0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
